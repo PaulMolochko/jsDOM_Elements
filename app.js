@@ -39,4 +39,4 @@ function showItem() {
   itemFive.style.display = 'block';
 };
 
-itemFour.addEventListener('mousedown', showItem);
+itemFour.addEventListener = showItem;
