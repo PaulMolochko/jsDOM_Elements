@@ -26,3 +26,5 @@ itemOne.addEventListener('mouseover',increaseWidth);
 const changeBackground = () => {
   itemTwo.style.backgroundColor = 'blue';
 }
+
+itemTwo.addEventListener('mouseup',changeBackground);
