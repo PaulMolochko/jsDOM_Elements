@@ -34,3 +34,9 @@ function changeText() {
 };
 
 itemThree.addEventListener('mouseout',changeText);
+
+function showItem() {
+  itemFive.style.display = 'block';
+};
+
+itemFour.addEventListener('mousedown', showItem);
