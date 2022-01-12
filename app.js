@@ -22,3 +22,7 @@ const increaseWidth = () => {
 }
 
 itemOne.addEventListener('mouseover',increaseWidth);
+
+const changeBackground = () => {
+  itemTwo.style.backgroundColor = 'blue';
+}
