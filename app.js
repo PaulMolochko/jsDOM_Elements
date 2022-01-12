@@ -28,3 +28,9 @@ const changeBackground = () => {
 }
 
 itemTwo.addEventListener('mouseup',changeBackground);
+
+function changeText() {
+  itemThree.innerHTML = 'The mouse has left the element'
+};
+
+itemThree.addEventListener('mouseout',changeText);
